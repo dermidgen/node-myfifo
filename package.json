@@ -15,12 +15,13 @@
     "url": "https://github.com/dermidgen/node-myfifo/bloxui/issues"
   },
   "private": false,
-  "main": [
-  ],
+  "main": [],
   "scripts": {
-    "test":"grunt test"
+    "test": "grunt test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "debug": "^2.1.1"
+  },
   "devDependencies": {
     "grunt": "^0.4.4",
     "grunt-contrib-watch": "^0.6.0"
