@@ -37,7 +37,7 @@ stream.on('ready',function(){
 	       i++;
 	}
 
-	stream.end("\n\n");
+	stream.end("\n");
 
 	console.log(new Date());
 
