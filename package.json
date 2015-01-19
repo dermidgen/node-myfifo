@@ -1,7 +1,7 @@
 {
   "name": "node-myfifo",
   "description": "Fast-write MySQL inserts from Streams",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Danny Graham",
   "license": {
     "type": "MIT",
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dermidgen/node-myfifo/bloxui.git"
+    "url": "https://github.com/dermidgen/node-myfifo.git"
   },
   "bugs": {
-    "url": "https://github.com/dermidgen/node-myfifo/bloxui/issues"
+    "url": "https://github.com/dermidgen/node-myfifo/issues"
   },
   "private": false,
-  "main": [],
+  "main": "./lib/myfifo.js",
   "scripts": {
     "test": "grunt test"
   },
